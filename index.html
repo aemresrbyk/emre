@@ -4,192 +4,100 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ali Emre Sarıbıyık</title>
-<meta name="description" content="Ali Emre Sarıbıyık: Elektrik-Elektronik Mühendisliği, sinyal işleme, makine öğrenmesi, oyunlar ve kısa videolar.">
-<link rel="icon" href="https://github.com/aemresrbyk.png">
+<meta name="description" content="Ali Emre Sarıbıyık – Elektrik-Elektronik Mühendisliği, sinyal işleme ve makine öğrenmesi.">
+<link rel="icon" href="photo.jpg">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"Times New Roman",serif;color:#000;background:#fff;line-height:1.6;padding:40px 20px}
 .container{max-width:800px;margin:0 auto}
 a{color:#000;text-decoration:none}
 a:hover{text-decoration:underline}
-.home-header{display:flex;align-items:flex-start;gap:30px;border-bottom:2px solid #000;padding-bottom:20px;margin-bottom:30px}
+header{display:flex;align-items:flex-start;gap:30px;border-bottom:2px solid #000;padding-bottom:20px;margin-bottom:30px}
 .portrait{width:120px;height:120px;border-radius:20%;object-fit:cover;flex-shrink:0}
 h1{font-size:32px;text-transform:uppercase;letter-spacing:2px;line-height:1.2;margin-bottom:10px}
 .tagline{font-size:15px;font-style:italic;margin-bottom:10px}
-.social-links{display:flex;gap:14px;margin:12px 0 8px}
-.social-links a{display:flex;width:22px;height:22px;transition:opacity .15s}
-.social-links a:hover{opacity:.5}
-.social-links svg{width:100%;height:100%;fill:currentColor}
-.small,.body-text{font-size:14px}
+.links{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px}
 .lang{position:absolute;top:16px;right:20px;font:14px "Times New Roman",serif;background:none;border:1px solid #000;padding:2px 10px;cursor:pointer}
 section{margin-bottom:30px}
 h2{font-size:20px;text-transform:uppercase;border-bottom:1px solid #000;padding-bottom:5px;margin-bottom:15px;letter-spacing:1px}
-.timeline-item{display:flex;gap:20px}
-.timeline-marker{display:flex;flex-direction:column;align-items:center;width:32px;flex-shrink:0}
-.timeline-dot{width:10px;height:10px;border-radius:50%;background:#000;margin-top:6px}
-.timeline-line{width:1px;flex:1;background:#000;margin:6px 0;min-height:20px}
-.timeline-item:last-child .timeline-line{display:none}
-.timeline-content{padding-bottom:28px}
-.timeline-content h3,.item h3{font-size:16px;margin-bottom:4px}
-.timeline-content p,.item p{font-size:14px;margin:3px 0}
-.item{margin-bottom:20px}
-.date{font-size:12px;font-style:italic;display:block;margin-bottom:3px}
-.skills p{font-size:14px;margin:3px 0}
+.item{display:flex;gap:20px}
+.marker{display:flex;flex-direction:column;align-items:center;width:12px;flex-shrink:0}
+.dot{width:10px;height:10px;border-radius:50%;background:#000;margin-top:6px}
+.line{width:1px;flex:1;background:#000;margin:6px 0}
+.item:last-child .line{display:none}
+.content{padding-bottom:22px}
+.content h3{font-size:16px;margin-bottom:2px}
+.content p{font-size:14px}
+.date{font-size:12px;font-style:italic;display:block}
 footer{margin-top:40px;padding-top:15px;border-top:1px solid #000;font-size:14px}
 [data-en]{display:none}
 html[lang=en] [data-tr]{display:none}
 html[lang=en] [data-en]{display:revert}
-@media (max-width:560px){.home-header{flex-direction:column;gap:16px}h1{font-size:26px}}
+@media (max-width:560px){header{flex-direction:column;gap:16px}h1{font-size:26px}}
 </style>
 </head>
 <body>
 <button class="lang" id="lang" aria-label="Dil / Language">EN</button>
 <div class="container">
-  <header class="home-header">
-    <img class="portrait" src="https://github.com/aemresrbyk.png" alt="Ali Emre Sarıbıyık">
+  <header>
+    <img class="portrait" src="photo.jpg" alt="Ali Emre Sarıbıyık">
     <div>
       <h1>Ali Emre Sarıbıyık</h1>
-      <p class="tagline"><span data-tr>Elektrik-Elektronik Mühendisliği son sınıf öğrencisi. Sinyal işleme, makine öğrenmesi ve oyunlar.</span><span data-en>Final-year Electrical &amp; Electronics Engineering student. Signal processing, machine learning and games.</span></p>
-      <nav class="social-links">
-        <a href="https://github.com/aemresrbyk" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg></a>
-        <a href="https://www.linkedin.com/in/aliemresaribiyik/" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
-        <a href="https://www.youtube.com/@numbersatscale" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6z"/></svg></a>
-        <a href="https://x.com/numbersatscale" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
-        <a href="mailto:aemresrbyk@gmail.com" aria-label="E-posta"><svg viewBox="0 0 24 24"><path d="M2 4h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm10 8.6L2.4 6.5v1.9L12 14.5l9.6-6.1V6.5z"/></svg></a>
-      </nav>
-      <p class="small"><a href="mailto:aemresrbyk@gmail.com">aemresrbyk@gmail.com</a> · <span data-tr>İzmir, Türkiye</span><span data-en>İzmir, Türkiye</span></p>
+      <p class="tagline"><span data-tr>Elektrik-Elektronik Mühendisliği · Sinyal İşleme · Makine Öğrenmesi</span><span data-en>Electrical &amp; Electronics Engineering · Signal Processing · Machine Learning</span></p>
+      <p class="links">
+        <a href="https://www.linkedin.com/in/aliemresaribiyik/">LinkedIn</a>
+        <a href="https://github.com/aemresrbyk">GitHub</a>
+        <a href="mailto:aemresrbyk@gmail.com">aemresrbyk@gmail.com</a>
+        <span>İzmir, Türkiye</span>
+      </p>
     </div>
   </header>
 
   <section>
-    <h2><span data-tr>Hakkımda</span><span data-en>About</span></h2>
-    <p class="body-text"><span data-tr>Yaşar Üniversitesi'nde Elektrik-Elektronik Mühendisliği son sınıf öğrencisiyim (mezuniyet: Ocak 2027). Bitirme projemde ESP32 ile EKG ve GSR sinyallerini topluyor, filtreliyor ve makine öğrenmesiyle duygu durumlarını sınıflandırıyorum. MATLAB'da FFT tabanlı spektral analiz ve sinyal sıkıştırma üzerine çalıştım, bir transformatör test laboratuvarında staj yaptım. Boş zamanımda iPhone için bulmaca oyunları yapıyorum.</span><span data-en>Final-year Electrical &amp; Electronics Engineering student at Yaşar University (graduating January 2027). In my graduation project I record ECG and GSR signals with an ESP32, filter them and classify emotional states with machine learning. I have worked on FFT-based spectral analysis and signal compression in MATLAB, and interned at a transformer test laboratory. On the side I make puzzle games for iPhone.</span></p>
-  </section>
-
-  <section>
     <h2><span data-tr>Deneyim</span><span data-en>Experience</span></h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-marker"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
-        <div class="timeline-content">
-          <span class="date"><span data-tr>2026 – Günümüz</span><span data-en>2026 – Present</span></span>
-          <h3><span data-tr>Kurucu &amp; Bağımsız Mobil Geliştirici</span><span data-en>Founder &amp; Independent Mobile Developer</span> – <a href="https://kitefoldgames.com/">Kitefold Games</a></h3>
-          <p><span data-tr>App Store'da mobil oyunlar tasarlayıp geliştirdim ve yayınladım; geliştirme, uygulama içi satın alma, reklam entegrasyonu ve mağaza yayın sürecinin tamamını yürüttüm.</span><span data-en>Designed, built and published mobile games on the App Store, handling development, in-app purchases, ad integration and the full store release process.</span></p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
-        <div class="timeline-content">
-          <span class="date"><span data-tr>Ağustos – Eylül 2025</span><span data-en>August – September 2025</span></span>
-          <h3><span data-tr>Stajyer, Transformatör Test Laboratuvarı</span><span data-en>Intern, Transformer Test Laboratory</span> – Eltaş Transformatör A.Ş.</h3>
-          <p><span data-tr>Güç transformatörlerinin rutin ve tip testlerinde test ekibiyle çalıştım; test sonuçlarının değerlendirilmesi ve raporlanmasına destek verdim.</span><span data-en>Took part in routine and type tests of power transformers with the test team and supported evaluation and reporting of results.</span></p>
-        </div>
-      </div>
-    </div>
+    <div class="item"><div class="marker"><div class="dot"></div><div class="line"></div></div><div class="content">
+      <span class="date"><span data-tr>2026 – Günümüz</span><span data-en>2026 – Present</span></span>
+      <h3><a href="https://kitefoldgames.com/">Kitefold Games</a></h3>
+      <p><span data-tr>Kurucu, Bağımsız Mobil Geliştirici. App Store'da yayınlanan bulmaca oyunları.</span><span data-en>Founder, Independent Mobile Developer. Puzzle games published on the App Store.</span></p>
+    </div></div>
+    <div class="item"><div class="marker"><div class="dot"></div><div class="line"></div></div><div class="content">
+      <span class="date"><span data-tr>Ağustos – Eylül 2025</span><span data-en>August – September 2025</span></span>
+      <h3>Eltaş Transformatör A.Ş.</h3>
+      <p><span data-tr>Stajyer, Transformatör Test Laboratuvarı. Güç transformatörlerinin rutin ve tip testleri.</span><span data-en>Intern, Transformer Test Laboratory. Routine and type tests of power transformers.</span></p>
+    </div></div>
   </section>
 
   <section>
     <h2><span data-tr>Eğitim</span><span data-en>Education</span></h2>
-    <div class="item">
-      <h3><span data-tr>Lisans – Elektrik-Elektronik Mühendisliği</span><span data-en>B.Sc. – Electrical &amp; Electronics Engineering</span></h3>
-      <p><span data-tr>Yaşar Üniversitesi, İzmir</span><span data-en>Yaşar University, İzmir</span></p>
-      <p class="date"><span data-tr>2022 – Ocak 2027 (beklenen)</span><span data-en>2022 – January 2027 (expected)</span></p>
-    </div>
-    <div class="item">
-      <h3><span data-tr>Önlisans – Yapay Zekâ Destekli Kodlama</span><span data-en>Associate Degree – AI-Powered Coding</span></h3>
-      <p><span data-tr>Anadolu Üniversitesi, Açıköğretim Fakültesi</span><span data-en>Anadolu University, Open Education Faculty</span></p>
-      <p class="date"><span data-tr>2026 – Günümüz</span><span data-en>2026 – Present</span></p>
-    </div>
+    <div class="item"><div class="marker"><div class="dot"></div><div class="line"></div></div><div class="content">
+      <span class="date"><span data-tr>2022 – Ocak 2027</span><span data-en>2022 – January 2027</span></span>
+      <h3><span data-tr>Yaşar Üniversitesi</span><span data-en>Yaşar University</span></h3>
+      <p><span data-tr>Lisans, Elektrik-Elektronik Mühendisliği</span><span data-en>B.Sc., Electrical &amp; Electronics Engineering</span></p>
+    </div></div>
+    <div class="item"><div class="marker"><div class="dot"></div><div class="line"></div></div><div class="content">
+      <span class="date"><span data-tr>2026 – Günümüz</span><span data-en>2026 – Present</span></span>
+      <h3><span data-tr>Anadolu Üniversitesi</span><span data-en>Anadolu University</span></h3>
+      <p><span data-tr>Önlisans, Yapay Zekâ Destekli Kodlama</span><span data-en>Associate Degree, AI-Powered Coding</span></p>
+    </div></div>
   </section>
 
   <section>
     <h2><span data-tr>Projeler</span><span data-en>Projects</span></h2>
-    <div class="item">
-      <h3><span data-tr>Duygu Tanıma için Çok Modlu Fizyolojik Sinyal Analizi</span><span data-en>Multimodal Physiological Signal Analysis for Emotion Recognition</span></h3>
-      <p><span data-tr>Bitirme Projesi – Doç. Dr. Nalan Özkurt.</span><span data-en>Graduation project – Assoc. Prof. Dr. Nalan Özkurt.</span> <span data-tr>ESP32 tabanlı giyilebilir düzenekle EKG ve GSR topladım; zaman ve frekans alanı öznitelikleriyle scikit-learn sınıflandırıcıları eğittim.</span><span data-en>Built an ESP32 wearable to record ECG and GSR; trained scikit-learn classifiers on time- and frequency-domain features.</span></p>
-      <p class="date">09/2025 – 06/2026</p>
-    </div>
-    <div class="item">
-      <h3><span data-tr>Massive MIMO için CSI Geri Besleme Sıkıştırması</span><span data-en>CSI Feedback Compression for Massive MIMO</span> – MATLAB</h3>
-      <p><span data-tr>PCA, DCT ve otokodlayıcıyı dört sıkıştırma oranında karşılaştırdım; 6-bit nicemleme ile geri besleme boyutunu 42,7 kat azalttım.</span><span data-en>Compared PCA, DCT and an autoencoder at four compression ratios; reached a 42.7x reduction in feedback size with 6-bit quantization.</span></p>
-      <p class="date">05/2026</p>
-    </div>
-    <div class="item">
-      <h3><span data-tr>Vision Transformer ile Bitki Hastalığı Sınıflandırması</span><span data-en>Plant Disease Classification with Vision Transformers</span> – Python, PyTorch</h3>
-      <p><span data-tr>Ham, CLAHE ile iyileştirilmiş ve filtrelenmiş görüntüleri önceden eğitilmiş bir ViT'ye verdim; dengeli test setinde %97 doğruluk.</span><span data-en>Fed raw, CLAHE-enhanced and filtered images to a pretrained ViT; 97% accuracy on a balanced test set.</span></p>
-      <p class="date">05/2026</p>
-    </div>
-    <div class="item">
-      <h3><a href="https://github.com/aemresrbyk/image-process-cnn"><span data-tr>Yüz İfadelerinden Duygu Tanıma</span><span data-en>Emotion Recognition from Facial Expressions</span></a></h3>
-      <p><span data-tr>CNN ve görüntü işleme ile grup çalışması – Dr. Suphi Uçar.</span><span data-en>Team project with CNNs and image processing – Dr. Suphi Uçar.</span></p>
-      <p class="date">12/2025</p>
-    </div>
-    <div class="item">
-      <h3><span data-tr>EKG Sinyallerinden Kalp Hızı Değişkenliği Hesaplaması</span><span data-en>Heart Rate Variability from ECG Signals</span></h3>
-      <p><span data-tr>Gürültülü sensör verisinde filtreleme ve tepe tespiti.</span><span data-en>Filtering and peak detection on noisy sensor data.</span></p>
-      <p class="date">01/2025</p>
-    </div>
-    <div class="item">
-      <h3><span data-tr>Türkiye Elektrik Tüketiminin Spektral Analizi</span><span data-en>Spectral Analysis of Electricity Consumption in Türkiye</span></h3>
-      <p><span data-tr>Ulusal tüketim verisinden günlük, haftalık ve mevsimsel yük örüntülerini FFT ile çıkardım.</span><span data-en>Extracted daily, weekly and seasonal load patterns from national consumption data with FFT.</span></p>
-      <p class="date">11/2024 – 12/2024</p>
-    </div>
-    <div class="item">
-      <h3><a href="https://www.youtube.com/@numbersatscale">Numbers at Scale</a></h3>
-      <p><span data-tr>Parayla ilgili dev sayıları el çizimi kısa videolarla anlatan kanal.</span><span data-en>Short, hand-drawn videos that make huge money numbers easy to picture.</span> <a href="https://www.youtube.com/@numbersatscale">YouTube</a> · <a href="https://www.instagram.com/numbersatscale">Instagram</a> · <a href="https://www.tiktok.com/@numbersatscale">TikTok</a> · <a href="https://x.com/numbersatscale">X</a></p>
-    </div>
-    <div class="item">
-      <h3>befass</h3>
-      <p><span data-tr>Steam için 3–5 kişilik online co-op oyun (geliştiriliyor). Unity 6 + Netcode for GameObjects.</span><span data-en>A 3–5 player online co-op game for Steam (in development). Unity 6 + Netcode for GameObjects.</span></p>
-    </div>
-  </section>
-
-  <section>
-    <h2><span data-tr>Oyunlar</span><span data-en>Games</span></h2>
-    <div class="item">
-      <h3><a href="https://apps.apple.com/app/id6820693702">Grainfit: Wood Block Puzzle</a></h3>
-      <p><span data-tr>Her parçanın döndürülebildiği ahşap blok bulmacası.</span><span data-en>A cozy wooden block puzzle where every piece can be rotated.</span></p>
-      <p class="date">App Store</p>
-    </div>
-    <div class="item">
-      <h3><a href="https://apps.apple.com/app/id6819167276">Sudoku: Ink &amp; Paper</a></h3>
-      <p><span data-tr>Sumi mürekkebiyle klasik sudoku, tamamen çevrimdışı.</span><span data-en>Classic sudoku in sumi ink, fully offline.</span></p>
-      <p class="date">App Store</p>
-    </div>
-    <div class="item">
-      <h3><a href="https://kitefoldgames.com/inkfold/">Inkfold: Paper Ink Puzzle</a></h3>
-      <p><span data-tr>Kâğıdı katla, ıslak mürekkep diğer tarafa basılsın.</span><span data-en>Fold the paper and wet ink prints onto the other side.</span></p>
-      <p class="date"><span data-tr>Yakında</span><span data-en>Coming soon</span></p>
-    </div>
-    <div class="item">
-      <h3><a href="https://kitefoldgames.com/sunnap/">Sunnap: Cozy Cat Light Puzzle</a></h3>
-      <p><span data-tr>Doğru panjurları aç, her kedi kendi güneş ışığını bulsun.</span><span data-en>Open the right shutters so every cat gets its sunbeam.</span></p>
-      <p class="date"><span data-tr>Yakında</span><span data-en>Coming soon</span></p>
-    </div>
-  </section>
-
-  <section class="skills">
-    <h2><span data-tr>Beceriler</span><span data-en>Skills</span></h2>
-    <p><b>MATLAB / Simulink</b> – <span data-tr>sinyal işleme, FFT, simülasyon</span><span data-en>signal processing, FFT, simulation</span></p>
-    <p><b>Python</b> – NumPy, SciPy, pandas, scikit-learn, PyTorch</p>
-    <p><b><span data-tr>Makine Öğrenmesi</span><span data-en>Machine Learning</span></b> – <span data-tr>sınıflandırma, CNN, Vision Transformer, otokodlayıcı</span><span data-en>classification, CNNs, Vision Transformers, autoencoders</span></p>
-    <p><b><span data-tr>Gömülü Sistemler</span><span data-en>Embedded Systems</span></b> – Arduino, ESP32, <span data-tr>sensör verisi toplama</span><span data-en>sensor data acquisition</span></p>
-    <p><b><span data-tr>Laboratuvar</span><span data-en>Laboratory</span></b> – <span data-tr>osiloskop, multimetre, transformatör test prosedürleri</span><span data-en>oscilloscope, multimeter, transformer test procedures</span></p>
-    <p><b><span data-tr>Mobil &amp; Oyun</span><span data-en>Mobile &amp; Games</span></b> – Xcode, App Store Connect, Unity</p>
-    <p><b><span data-tr>Diller</span><span data-en>Languages</span></b> – <span data-tr>Türkçe (ana dil), İngilizce (B2)</span><span data-en>Turkish (native), English (B2)</span></p>
-  </section>
-
-  <section>
-    <h2><span data-tr>Sertifikalar</span><span data-en>Certificates</span></h2>
-    <div class="item">
-      <h3><span data-tr>MathWorks Online Sertifikaları (5)</span><span data-en>MathWorks Online Certificates (5)</span></h3>
-      <p>MATLAB Onramp, Simulink Onramp, Signal Processing Onramp, Core Signal Processing Techniques in MATLAB, Make and Manipulate Matrices</p>
-      <p class="date">2024 – 2025</p>
-    </div>
-    <div class="item">
-      <h3><span data-tr>Dijital Gelecek: Yapay Zeka – Katılım Sertifikası</span><span data-en>Digital Future: Artificial Intelligence – Certificate of Participation</span></h3>
-      <p class="date">12/2024</p>
-    </div>
+    <div class="item"><div class="marker"><div class="dot"></div><div class="line"></div></div><div class="content">
+      <span class="date"><span data-tr>Bitirme Projesi · 2025 – 2026</span><span data-en>Graduation Project · 2025 – 2026</span></span>
+      <h3><span data-tr>Fizyolojik Sinyallerden Duygu Tanıma</span><span data-en>Emotion Recognition from Physiological Signals</span></h3>
+      <p><span data-tr>ESP32 ile EKG ve GSR toplama, filtreleme ve makine öğrenmesiyle sınıflandırma.</span><span data-en>ECG and GSR acquisition with an ESP32, filtering and machine-learning classification.</span></p>
+    </div></div>
+    <div class="item"><div class="marker"><div class="dot"></div><div class="line"></div></div><div class="content">
+      <span class="date">MATLAB · 2026</span>
+      <h3><span data-tr>Massive MIMO için CSI Geri Besleme Sıkıştırması</span><span data-en>CSI Feedback Compression for Massive MIMO</span></h3>
+      <p><span data-tr>PCA, DCT ve otokodlayıcı karşılaştırması; geri besleme boyutunda 42,7 kat azalma.</span><span data-en>PCA, DCT and autoencoder compared; 42.7x reduction in feedback size.</span></p>
+    </div></div>
+    <div class="item"><div class="marker"><div class="dot"></div><div class="line"></div></div><div class="content">
+      <span class="date">Python, PyTorch · 2026</span>
+      <h3><span data-tr>Vision Transformer ile Bitki Hastalığı Sınıflandırması</span><span data-en>Plant Disease Classification with Vision Transformers</span></h3>
+      <p><span data-tr>Dengeli test setinde %97 doğruluk.</span><span data-en>97% accuracy on a balanced test set.</span></p>
+    </div></div>
   </section>
 
   <footer>© 2026 Ali Emre Sarıbıyık</footer>
